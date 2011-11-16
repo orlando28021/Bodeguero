@@ -1,0 +1,569 @@
+#main-form{
+float:right;
+width:45%;
+border:0px solid black;
+margin:0px 30px 0 10px;
+}
+
+main-imgder{
+float:right;
+width:45%;
+border:1px solid black;
+margin:0px 30px 0 10px;
+}
+
+#main-table{
+float:left;
+width:45%;
+border:0px solid black;
+margin:0px 30px 0 10px;
+}
+
+.container {
+    border: 2px solid blue;
+    top:350;     
+	margin-left:auto;
+	margin-right:auto;
+    
+}
+
+
+h1, a, h2, h3 {
+	color: #F00;
+	text-align: left;
+	font-weight: normal;
+}
+
+#addProvMain{
+    width: 1022px;
+	height: 300px;
+	margin-left:auto;
+	margin-right:auto;	   
+}
+
+
+
+
+.dato {
+	font-size: 13px;
+	font-weight: normal;
+	color: #000;
+	
+}
+
+p {
+    padding-bottom: 10px;
+}
+
+/*Carrito*/
+
+.fieldCarrito{
+	width: 50px;
+	text-align: center;
+}
+
+#main table{
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Catalogo Fallo*/
+
+#catalogoFallo{
+	width: 500px;
+	height: 130px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 110px;
+        text-align: center;
+        align: center;
+        border:1px solid black;
+}
+
+/*Catagolo*/
+
+#main-categoria{
+	width: 280px;
+	height: 30px;
+	float: right;
+        margin-right: 10px;
+}
+
+#main-productos table{
+        border-collapse: collapse;
+}
+
+#main-productos{
+        margin-top: 75px;
+        width: 700px;
+	height: 620px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid black;
+}
+
+#imgProducto{
+        width: 150px;
+	height: 150px;
+        border: 1px solid black;
+}
+
+#imgProducto img{
+        width: 150px;
+	height: 150px;
+}
+
+#descripProducto{
+        width: 390px;
+	height: 150px;
+        border: 1px solid black;
+}
+
+#descripProducto h3, p{
+        margin-left: 10px;
+}
+
+#agregarProducto{
+        width: 145px;
+	height: 150px;
+        border: 1px solid black;  
+        text-align: center;    
+}
+
+#adminContent{
+        width: 1024px;
+        height: 390px;
+        margin-top: 30px;
+        margin-left:auto;
+        margin-right: auto;        
+}
+
+#contenedor-prod{
+	width: 900px;
+	height: 800px;
+        left:auto;
+        border:1px solid black;
+	margin-left: auto;
+	margin-right:auto;
+	
+}
+
+/*Para casi todos, excepto catalogo*/
+
+#main{	
+	height: 420px;
+	margin-left:auto;
+	margin-right:auto;
+	border:1px solid black;
+}
+
+
+
+
+h1, a, h2, h3 {
+	color: #000;
+	text-align: left;
+	font-weight: normal;
+}
+
+h2, h3{
+	margin-left: 10px;
+	color: #000;
+}
+
+
+
+p {
+    padding-bottom: 10px;
+}
+
+/* Principal Admin */
+
+#imgAdmin{
+    height: 266px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+/* Agregar Producto */
+
+.tablaAgregarProducto{
+    border-spacing: 10px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centrarTexto{
+    text-align: center;
+}
+
+/* Agregar Proveedor */
+
+#cont-proveedores{
+    height: 350px;
+    width: 560px; 
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    
+}
+
+#cabeceraProveedores{
+    width: 100%;
+    height: 25px;
+    border: 1px solid black;
+}
+
+#cabeceraProveedores p{
+    text-align: center;
+    margin: 2px;
+    font-weight: bold;
+}
+
+.nuevoProveedor{
+    margin-left: 31px;
+}
+
+#scrollProveedores{
+    height: 270px;
+    width: 500px; 
+    overflow: scroll;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.tablaProveedores{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+/* Detalle Prov*/
+
+#detalleProv{
+        width: 700px;
+        height: 250px;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid black;
+}
+
+/* Hacer Pedido */
+
+.margTextPedido{
+    margin-left: 17px;
+}
+
+#HacerPedido{
+    height: 350px;
+    width: 380px; 
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.margenCarrito{
+    margin-left: 20px;
+}
+
+.margenCarrito2{
+    margin-left: 460px;
+}
+
+#carritoPedido{
+    height: 390px;
+    width: 540px; 
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+#pedidoMain{
+        width: 1022px;
+	height: 965px;
+	margin-left:auto;
+	margin-right:auto;
+	    
+}
+
+#pedidoContent{
+        width: 800px;
+        height: 910px;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid black;
+}
+
+.margRegresar2{
+    margin-left: 50px;
+}
+
+/* Agregar Nuevo Proveedor*/
+
+
+
+#addProvContent{
+        width: 1024px;
+        height: 300px;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+		border: 1px solid black;
+}
+
+
+/* Modificar Prov */
+
+#empresa{
+    height: 215px;
+    width: 270px;
+    float: left;
+    border: 1px solid black;
+    margin-left: 100px;
+}
+
+#contacto{
+    height: 215px;
+    width: 270px;
+    float: right;   
+    border: 1px solid black;
+    margin-right: 100px;
+}
+
+.espacioCeldas{
+    border-spacing: 10px;
+}
+
+.centrar{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#EnlacesModProv{
+    height: 40px;
+    width: 1024px;
+	margin-top:250px;
+    margin-left: auto;
+	margin-right: auto;
+	position:absolute;
+	
+}
+
+/* detalle Pedido*/
+
+.alinearDerecha{
+    text-align: right;
+}
+
+.margRegresar{
+    margin-left: 10px;
+}
+
+/*Carrito*/
+#main table{
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Catalogo Fallo*/
+
+#catalogoFallo{
+	width: 500px;
+	height: 130px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 110px;
+        text-align: center;
+        border:1px solid black;
+}
+
+/* Mi Cuenta*/
+
+
+
+/* Mensaje */
+
+
+
+/* Modificar Cuenta */
+
+
+/* Contactenos */
+
+.tablaContactenos{
+	width: 1024px;
+	height: 432px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.td1Contac{
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.tablaFormContac{
+	width: 500px;
+}
+
+.letrasContac{
+	font-size: 20px;
+}
+
+/* Catagolo */
+
+#main-categoria{
+	width: 280px;
+	height: 30px;
+        left:300px;
+	float: right;
+        margin-right: 10px;
+}
+
+#main-productos table{
+        border-collapse: collapse;
+}
+
+#main-productos{
+        margin-top: 75px;
+        left: auto;
+        width: 700px;
+	height: 620px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid black;
+}
+
+#imgProducto{
+        width: 150px;
+	height: 150px;
+        border: 1px solid black;
+}
+
+#imgProducto img{
+        width: 150px;
+	height: 150px;
+}
+
+#descripProducto{
+        width: 390px;
+	height: 150px;
+        border: 1px solid black;
+}
+
+#descripProducto h3, p{
+        margin-left: 10px;
+}
+
+
+/*Para casi todos, excepto catalogo*/
+
+#main{
+	width: 800px;
+	height: 420px;
+        left: 300px;
+	margin-left: auto;
+        margin-right: auto;
+}
+
+/*Solo para el admin*/
+
+#adminMain{
+    width: 1024px;
+	height: 455px;
+        left:300px;
+	margin-left:auto;
+	margin-right:auto;
+        border: 1px solid black;
+}
+
+#adminContent{
+        width: 800px;
+        height: 390px;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid black;
+}
+
+/*Para los que esten logueados*/
+
+#cerrarSesion{
+        width: 200px;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    
+}
+
+.titulo {
+	color: #000;
+}
+
+
+/* Nosotros */
+
+#cont-left{
+        width: 530px;
+        height: 390px;
+        margin-top: 30px;
+        float: left;
+}
+
+#cont-left p, h2{
+        padding-left: 30px;
+}
+
+#cont-right{
+        width: 450px;
+        height: 330px;
+        margin-top: 60px;
+        margin-right: 20px;
+        float: right;
+}
+
+#cont-right img{
+        width: 450px;
+        height: 330px;
+}
+
+/* Olvido Pass */
+
+.td1OP{
+	width: 229px;
+}
+
+.td2OP{
+	text-align: right;
+}
+
+/* Mensaje Detalle */
+
+.tabla1MD{
+	width: 100%;
+	height: 360px;
+}
+
+
+
+
+
+/* Mensaje Enviar */
+
+
+

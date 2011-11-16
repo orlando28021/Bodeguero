@@ -1,0 +1,153 @@
+<html>
+<head><title>El Bodeguero 2.0</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+</head>
+<body>
+<table>
+  <tr>
+      <td><img src="../img/logo.jpg" class="logo" /></td>
+      <td><div id="logo"><img src="../img/El_Bodeguero.jpg" class="banner"/></div></td>
+    <td><form name="catalogo" method="post" action="?opcion=salir">
+      <div id="cerrarSesion">
+      <table>
+        <tr>
+          <td colspan="2">Bienvenido, <?php echo $usuario->get_correoElectronico(); ?></td>
+        </tr>
+        <tr>
+          <td><a href="?opcion=miCuenta">Mi cuenta</a></td>
+          <td><a href="salir.php">Cerrar Sesi&oacute;n</a></td>
+        </tr>
+      </table>
+      </div>
+    </form></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="5"><table>
+      <tr>
+        <td><a href="?opcion=principal"><img src="../img/botones/Inicio1.png" /></a></td>
+        <td><a href="?opcion=nosotros"><img src="../img/botones/Nosotros.png"/></a></td>
+        <td><a href="?opcion=catalogo"><img src="../img/botones/Catalogo.png"/></a></td>
+        <td><a href="?opcion=novedades"><img src="../img/botones/Novedades.png"/></a></td>
+        <td><a href="?opcion=contactenos"><img src="../img/botones/contactenos.png"/></a></td>
+      </tr>
+    </table>
+    <br />
+    <br />
+    </td>
+  </tr>
+</table>
+<div id="contenedor-prod">
+<h2>Catalogo de Productos</h2>
+    <div id="main-categoria">
+        <label>Categoria: </label> 
+        <select NAME="comboCategoria" SIZE=1> 
+        <option VALUE="1">Lacteos</option>
+        <option VALUE="2">Gaseosas</option>
+        <option VALUE="3">Bebidas Alcoholicas</option>
+        <option VALUE="4">Snacks</option> 
+        </select>
+        <input type="submit" name="botonBuscar" value="Buscar" />
+    </div>
+    <div id="main-productos">
+        <form action="?opcion=agregar" method="post">    
+            <table>
+            <tr>
+                <td>
+                    <div id="imgProducto">
+                    <img src="../img/lecheGloria.jpg">
+                    </div>
+                </td>
+                <td>
+                    <div id="descripProducto">
+                    <h3>Leche Gloria</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id volutpat augue. 
+                       Nunc vitae eros orci, sed dignissim sapien. Donec ultricies cursus molestie. 
+                       Pellentesque tempor leo vel mauris ornare tempor.</p>
+                    </div>
+                </td>
+                <td>
+                    <div id="agregarProducto">
+                    <p>S/ 5.50 <br />
+                        Disponible: 100 unidades</p>
+                    <input type="submit" name="botonAgregar" value="Agregar"/>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div id="imgProducto">
+                    <img src="../img/lecheIdeal.jpg">
+                    </div>
+                </td>
+                <td>
+                    <div id="descripProducto">
+                    <h3>Leche Ideal</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id volutpat augue. 
+                       Nunc vitae eros orci, sed dignissim sapien. Donec ultricies cursus molestie. 
+                       Pellentesque tempor leo vel mauris ornare tempor.</p>
+                    </div>
+                </td>
+                <td>
+                    <div id="agregarProducto">
+                    <p>S/ 5.20 <br />
+                        Disponible: 85 unidades</p>
+                    <input type="submit"  value="Agregar"/>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div id="imgProducto">
+                    <img src="../img/lechePuraVida.jpg">
+                    </div>
+                </td>
+                <td>
+                    <div id="descripProducto">
+                    <h3>Leche Pura Vida</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id volutpat augue. 
+                       Nunc vitae eros orci, sed dignissim sapien. Donec ultricies cursus molestie. 
+                       Pellentesque tempor leo vel mauris ornare tempor.</p>
+                    </div>
+                </td>
+                <td>
+                    <div id="agregarProducto">
+                    <p>S/ 5.00 <br />
+                        Disponible: 67 unidades</p>
+                    <input type="submit" name="botonAgregar" value="Agregar"/>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div id="imgProducto">
+                    <img src="../img/lecheSoale.jpg">
+                    </div>
+                </td>
+                <td>
+                    <div id="descripProducto">
+                    <h3>Leche Soal&eacute;</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id volutpat augue. 
+                       Nunc vitae eros orci, sed dignissim sapien. Donec ultricies cursus molestie. 
+                       Pellentesque tempor leo vel mauris ornare tempor.</p>
+                    </div>
+                </td>
+                <td>
+                    <div id="agregarProducto">
+                    <p>S/ 4.30 <br />
+                        Disponible: 104 unidades</p>
+                    <input type="submit" name="botonAgregar" value="Agregar a Carrito"/>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </form>
+    </div>
+</div>
+</body>
+</html>
+
